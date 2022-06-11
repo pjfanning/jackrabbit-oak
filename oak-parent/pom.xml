@@ -823,7 +823,7 @@
 
    <!--  - - - - - - - - - - - - - - - - - - - will run all the required tests before a release -->
    <profile>
-      <id>release</id>
+      <id>apache-release</id><!-- activated by maven-release-plugin in ASF parent -->
       <properties>
          <nsfixtures />
          <rdb.jdbc-url>jdbc:derby:./target/derby-release-test;create=true</rdb.jdbc-url>
